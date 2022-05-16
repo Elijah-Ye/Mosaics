@@ -163,3 +163,5 @@ LUVAPixel TileImage::getScaledPixelDouble(double startX, double endX,
 LUVAPixel TileImage::getScaledPixelInt(int startXint, int endXint, int startYint, int endYint) const {
     return calculateAverageColor(startXint, endXint, startYint, endYint);
 }
+
+
